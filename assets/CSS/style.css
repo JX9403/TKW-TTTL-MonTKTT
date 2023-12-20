@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* showDoc*/
+.showDoc{
+  position: relative;
+  background-color: var(--color-pink);
+  padding: 150px 0;
+}
+
+.showDoc-back{
+  font-size: 3rem;
+  margin-bottom: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: -5px;
+  left: -60px;
+}
+
+.showDoc-back:hover{
+  color: var(--color-red);
+}
+.showDoc-res {
+  border: 1px solid var(--color-red);
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-red);
+}
+
+/* .showDoc-main{
+
+} */
+.showDoc-box{
+  background-color: var(--color-white);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  border: .1px solid  rgba(0, 0, 0, 0.2);
+}
+.showDoc-box-img{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.showDoc-box-img img{
+  width: 100%;
+}
+.showDoc-box-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+
+.showDoc-box-desc{
+  font-size: 1.8rem;
+}
+
+.showDoc-box-desc-title{
+  font-weight: 700;
+}
+
+.showDoc-box-save{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.showDoc-box-save i{
+  font-size: 3rem;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.showDoc-box-show{
+  margin: 80px 0 20px 0;
+}
+.btn-wrap{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* JS */
+
+.show {
+  display: flex;
+}
+
+.notShow{
+  display: none;
+}
